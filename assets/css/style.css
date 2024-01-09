@@ -1,0 +1,136 @@
+/*
+crvena - #C6363C
+plava - #0C4076
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+#headerNav{
+    background-color: #C6363C!important;
+    z-index: 5;
+}
+.card-body{
+    background: color #0c4076!important;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.card-body p{
+	text-align: center;
+}
+.btn{
+	background-color: #C6363C!important;
+}
+img{
+	max-width: 100%;
+}
+.gallery{
+	padding: 50px 0;
+}
+.gallery img{
+	background-color: #C6363C;
+	padding: 8px;
+	width: 100%;
+	box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+#gallery-modal .modal-img{
+	width: 100%;
+}
+
+/* FOOTER */
+.ikonice{
+	color: #C6363C;
+}
+
+/* END FOOTER */
+
+
+/* START ABOUT ME */
+.about-me{
+	width: 100%;
+	height: 800px;
+	display: flex;
+  }
+  .left-about-me{
+	display: flex;
+	height: 100%;
+	width: 44%;
+	background-color: #C6363C!important;
+  }
+  .right-about-me{
+	width: 65%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .about-me-tekst{
+	width: 70%;
+	margin-left:42%;
+	margin-right:50px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	padding: 200px 0px;
+  }
+  .about-me-tekst h2{
+	margin-bottom: 50px;
+	font-size: 36px;
+	font-family: 'Lobster', cursive;
+  }
+  .about-me-tekst p{
+	font-size: 24px;
+	text-align: center;
+	letter-spacing: 2px;
+	font-family: 'Space Grotesk', sans-serif;
+  }
+  
+  .about-me-block{
+	width: 500px;
+	height: 500px;
+	background-color: #C6363C!important;
+	box-shadow:-10px 0px 20px #000;
+	position:relative;
+	left:50%;
+	top:150px;
+	margin: 0px auto;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+  }
+  .about-me-photo{
+	width: 50%;
+	height: 250px;
+	border-radius: 50%;
+	margin: 20px auto;
+	background: url("/assets/img/me.jpg") no-repeat;
+	background-position-y: 30%;
+	background-position-x: 52%;
+  }
+  .about-me-heading{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  .about-me-heading h2{
+	font-size: 38px;
+	color: #fff;
+	text-shadow: 3px 3px #000;
+	margin: 10px;
+	font-family: 'Geologica', sans-serif;
+  }
+  .about-me-heading h3{
+	font-size: 30px;
+	color: #fff;
+	text-shadow: 3px 3px #000;
+	font-family: 'Geologica', sans-serif;
+  }
+  
+  
+  /* END ABOUT ME */

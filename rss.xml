@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+
+    <channel>
+        <title>Obavestenja</title>
+        <link>https://gornjimilanovacispit.000webhostapp.com/</link>
+        <description>Ovde se nalaze obaveštenja našeg saja.</description>
+
+        <item>
+            <title>Ažurirana galerija</title>
+            <link>https://gornjimilanovacispit.000webhostapp.com/</link>
+            <description>Dodati su nove slike u galeriju.</description>
+        </item>
+    </channel>
+</rss>

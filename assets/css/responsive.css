@@ -1,0 +1,90 @@
+@media screen and (max-width: 1286px){
+ /* START ABOUT ME*/
+
+ .about-me-tekst h2{
+    font-size: 25px;
+  }
+  .about-me-tekst p{
+    font-size: 20px;
+  }
+  .about-me-block{
+    width: 400px;
+  }
+  .about-me-tekst{
+    width: 80%;
+  }
+  
+  /* END ABOUT ME*/
+}
+
+@media screen and (max-width: 768px){
+
+    /*START ABOUT ME*/
+.about-me{
+    height: auto;
+  }
+  .about-me-block{
+    left: 0%;
+    top:0px;
+    width: 90%;
+    height: 430px;
+  }
+  .about-me-photo{
+    width: 70%;
+    height: 200px;
+  }
+  .left-about-me{
+    width: 50%;
+    background-color: #fff;
+  }
+  .right-about-me{
+    width: 50%;
+  }
+  .about-me-tekst{
+    margin: 0px auto;
+    width: 90%;
+    padding: 0px;
+  }
+  .about-me-tekst h2{
+    font-size: 22px;
+    color: #CBA82A;
+  }
+  .about-me-tekst p{
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+  .about-me-heading h2{
+    font-size:26px;
+  }
+  .about-me-heading h3{
+    font-size:22px;
+  }
+  
+  /*END ABOUT ME*/
+   
+}
+
+@media screen and (max-width: 392px){
+
+    /* START ABOUT ME */
+.about-me{
+    flex-direction: column;
+  }
+  .left-about-me{
+    width: 80%;
+    margin: 20px auto;
+  }
+  .right-about-me{
+    width: 80%;
+    margin: 20px auto;
+  }
+  .about-me-tekst h2{
+    margin: 10px;
+  }
+  .about-me-tekst p{
+    padding: 50px 0px;
+    font-size:16px;
+  }
+  
+  /* END ABOUT ME */
+}
